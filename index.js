@@ -83,6 +83,5 @@ function convert() {
 button.addEventListener('click',convert);
 function changeImg() {
         var selector =  document.getElementById('money').selectedOptions[0].value;
-        // var type =  document.getElementById('standard').selectedOptions[0].value;
         imgChange.src = database[0][selector].link;
 }
