@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+#page{
+    background: linear-gradient(rgba(0, 0, 0, 0.312),rgba(0,0,0,0.7)), url(/currency-symbols-design-vector-3313134.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#converter{
+    background: #2a1940;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow:0 0 25px 0 grey;
+}
+#converter h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+#converter img{
+    height: 30px;
+    width: 30px;
+}
+.inputCont{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    border-radius: 30px;
+    padding: .5em;
+
+    width: 90%;
+}
+input{
+    padding: 0 .5em;
+    border-radius: 30px;
+    border: none;
+    font-size: 25px;
+    outline: none;
+    width: 90%;
+}
+#button{
+    width: 200px;
+    height: 50px;
+    font-size:20px ;
+    border-radius: 30px;
+    background-color:#013a6a;
+    cursor: pointer;
+    transition: 400ms;
+    border: none;
+    color: white;
+}
+#button:hover{
+    transform: scale(1.06);
+    background-color: #dd9727;
+    color: black;
+
+}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
+    display: none;
+}
+select{
+    /* outline: 1px solid grey; */
+    /* background: rgb(149, 149, 94); */
+    background: #2a1940 ;
+    font-size: 20px;
+    margin: 0 3px;
+    border: none;
+    color: white;
+}
