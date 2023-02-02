@@ -25,28 +25,53 @@ let database =[
     value: 347.17,
     currency: "canadian dollars",
     link: "./symbols/candian dollars.png"
+},{
+    value: 502.68,
+    currency: "Euro",
+    link: "./symbols/euros.png"
+},{
+    value: 3.58,
+    currency: "Yen",
+    link: "./symbols/yen.png"
+},{
+    value: 326.24 ,
+    currency: "Austrilian dollars",
+    link: "./symbols/austrilian.png"
+},{
+    value: 505.03 ,
+    currency: "Franc ",
+    link: "./symbols/franc.png"
 }
+
 ],
    [
     {
     value: 743,
     currency: "Dollar",
-    link: "./symbols/dollars.png"
 },
 {
     value: 925,
     currency: "pound",
-    link: "./symbols/pounds.png"
 },
 {
     value: 78,
     currency: "cedis",
-    link: "./symbols/cedis.png"
 },
 {
     value: 560,
     currency: "canadian dollars",
-    link: "./symbols/candian dollars.png"
+},{
+    value: 790,
+    currency: "Euro",
+},{
+    value:6,
+    currency: "Yen",
+},{
+    value: 555,
+    currency: "Austrilian dollars",
+},{
+    value: 718 ,
+    currency: "Franc ",
 }
     ]
 ]
