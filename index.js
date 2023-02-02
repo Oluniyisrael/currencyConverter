@@ -36,7 +36,7 @@ let database =[
 },{
     value: 326.24 ,
     currency: "Austrilian dollars",
-    link: "./symbols/austrilian.png"
+    link: "./symbols/austrilian dollars.png"
 },{
     value: 505.03 ,
     currency: "Franc ",
