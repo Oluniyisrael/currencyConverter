@@ -42,7 +42,6 @@ let database =[
     currency: "Franc ",
     link: "./symbols/franc.png"
 }
-
 ],
    [
     {
