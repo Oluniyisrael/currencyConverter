@@ -67,11 +67,11 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
     display: none;
 }
 select{
-    /* outline: 1px solid grey; */
+    outline: none;
     /* background: rgb(149, 149, 94); */
     background: #2a1940 ;
     font-size: 20px;
-    margin: 0 3px;
+    margin: 0 10px;
     border: none;
     color: white;
 }
